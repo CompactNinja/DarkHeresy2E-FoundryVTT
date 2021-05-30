@@ -1,12 +1,12 @@
 {
-  "name": "dark-heresy",
-  "title": "Dark Heresy 2E",
+  "name": "dark-heresy-rt",
+  "title": "Dark Heresy 2E - Rogue Trader Edit",
   "description": "Innocence proves nothing",
-  "version": "2.3.0",
+  "version": "2.3.0r",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,
-  "author": "JeansenVaars, Moo Man, fredthedeadhead, Perfectro",
+  "author": "JeansenVaars, Moo Man, fredthedeadhead, Perfectro, edit by CN",
   "scripts": [],
   "esmodules": [
     "script/common/hooks.js"
@@ -52,7 +52,7 @@
     {
       "name": "character-aptitudes",
       "label": "Character Aptitudes",
-      "system": "dark-heresy",
+      "system": "dark-heresy-rt",
       "path": "./packs/character/aptitudes.db",
       "entity": "Item"
     }
@@ -62,25 +62,15 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
-    },
-    {
-      "lang": "es",
-      "name": "Español",
-      "path": "lang/es.json"
-    },
-    {
-      "lang": "fr",
-      "name": "Français",
-      "path": "lang/fr.json"
     }
   ],
   "gridDistance": 1,
   "gridUnits": "m",
   "primaryTokenAttribute": null,
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/moo-man/DarkHeresy2E-FoundryVTT",
+  "url": "https://github.com/CompactNinja/DarkHeresy2E-FoundryVTT",
   "socket": true,
-  "manifest": "https://raw.githubusercontent.com/moo-man/DarkHeresy2E-FoundryVTT/master/system.json",
-  "download": "https://github.com/moo-man/DarkHeresy2E-FoundryVTT/releases/download/2.3.0/dark-heresy.zip",
+  "manifest": "https://raw.githubusercontent.com/CompactNinja/DarkHeresy2E-FoundryVTT/master/system.json",
+  "download": "https://github.com/CompactNinja/DarkHeresy2E-FoundryVTT/releases/download/0.1/dark-heresy-rt.zip",
   "license": "LICENSE.txt"
 }
