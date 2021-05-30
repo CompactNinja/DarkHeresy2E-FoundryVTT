@@ -4,7 +4,7 @@ export class MutationSheet extends DarkHeresyItemSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "mutation"],
-            template: "systems/dark-heresy/template/sheet/mutation.html",
+            template: "systems/dark-heresy-rt/template/sheet/mutation.html",
             width: 500,
             height: 369,
             resizable: false,

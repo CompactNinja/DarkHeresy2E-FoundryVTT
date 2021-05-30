@@ -221,7 +221,7 @@ function _getDegree(a, b) {
 }
 
 async function _sendToChat(rollData) {
-    const html = await renderTemplate("systems/dark-heresy/template/chat/roll.html", rollData);
+    const html = await renderTemplate("systems/dark-heresy-rt/template/chat/roll.html", rollData);
     let chatData = {
         user: game.user._id,
         rollMode: game.settings.get("core", "rollMode"),

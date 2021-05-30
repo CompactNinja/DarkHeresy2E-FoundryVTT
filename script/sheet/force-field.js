@@ -4,7 +4,7 @@ export class ForceFieldSheet extends DarkHeresyItemSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "force-field"],
-            template: "systems/dark-heresy/template/sheet/force-field.html",
+            template: "systems/dark-heresy-rt/template/sheet/force-field.html",
             width: 500,
             height: 369,
             resizable: false,

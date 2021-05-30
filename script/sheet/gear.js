@@ -4,7 +4,7 @@ export class GearSheet extends DarkHeresyItemSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "gear"],
-            template: "systems/dark-heresy/template/sheet/gear.html",
+            template: "systems/dark-heresy-rt/template/sheet/gear.html",
             width: 500,
             height: 369,
             resizable: false,

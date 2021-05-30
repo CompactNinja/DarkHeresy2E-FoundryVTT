@@ -22,7 +22,7 @@ export class DarkHeresyItem extends Item {
         item.isWeaponModification = item.type === "weaponModification";
         item.isAmmunition = item.type === "ammunition";
         item.isForceField = item.type === "forceField";
-        const html = await renderTemplate("systems/dark-heresy/template/chat/item.html", item);
+        const html = await renderTemplate("systems/dark-heresy-rt/template/chat/item.html", item);
         const chatData = {
             user: game.user._id,
             rollMode: game.settings.get("core", "rollMode"),

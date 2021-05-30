@@ -97,7 +97,7 @@ const migrateActorData = (actor, worldSchemaVersion) => {
                             name: textAptitude.name,
                             type: "aptitude",
                             isAptitude: true,
-                            img: "systems/dark-heresy/asset/icons/aptitudes/aptitude400.png",
+                            img: "systems/dark-heresy-rt/asset/icons/aptitudes/aptitude400.png",
                         }
                     })
                 if (aptitudeItemsData !== null && aptitudeItemsData !== undefined) {
