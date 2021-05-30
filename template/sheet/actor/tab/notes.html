@@ -22,35 +22,25 @@
                 <label>{{localize "BIO.HAIR"}}</label>
                 <input name="data.bio.hair" type="text" value="{{data.bio.hair}}" />
             </div>
-        </div>
-        <div class="information-row full">
-            <div class="divination wrapper full">
-                <label>{{localize "BIO.DIVINATION"}}</label>
-                <input name="data.bio.divination" type="text" value="{{data.bio.divination}}" />
+		</div>
+        <div class="information-row">
+            <div class="eyes wrapper">
+                <label>{{localize "BIO.EYES"}}</label>
+                <input name="data.bio.eyes" type="text" value="{{data.bio.eyes}}" />
             </div>
-        </div>
-        <div class="information-row full">
-            <div class="quirks wrapper full">
-                <label>{{localize "BIO.QUIRKS"}}</label>
-                <input name="data.bio.quirks" type="text" value="{{data.bio.quirks}}" />
+            <div class="height wrapper margin">
+                <label>{{localize "BIO.HEIGHT"}}</label>
+                <input name="data.bio.height" type="text" value="{{data.bio.height}}" />
             </div>
-        </div>
-        <div class="information-row full">
-            <div class="superstition wrapper full">
-                <label>{{localize "BIO.SUPERSTITION"}}</label>
-                <input name="data.bio.superstition" type="text" value="{{data.bio.superstition}}" />
-            </div>
-        </div>
-        <div class="information-row full">
-            <div class="momentos wrapper full">
-                <label>{{localize "BIO.MOMENTOS"}}</label>
-                <input name="data.bio.momentos" type="text" value="{{data.bio.momentos}}" />
+            <div class="weight wrapper margin">
+                <label>{{localize "BIO.WEIGHT"}}</label>
+                <input name="data.bio.weight" type="text" value="{{data.bio.weight}}" />
             </div>
         </div>
     </div>
     <div class="notes-editor border">
         <h1>{{localize "TITLE.NOTES"}}</h1>
-        <div style="height: 442px; width: 100%">
+        <div style="height: 538px; width: 100%">
             {{editor content=data.bio.notes target="data.bio.notes" button=true owner=owner editable=editable}}
         </div>
     </div>
