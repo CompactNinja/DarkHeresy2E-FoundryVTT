@@ -6,13 +6,25 @@
 }
 
 .dark-heresy .acolyte .header .home-world,
+.dark-heresy .acolyte .header .role,
 .dark-heresy .acolyte .header .background {
     flex-basis: 40%;
 }
 
-.dark-heresy .acolyte .header .role,
 .dark-heresy .acolyte .header .elite {
     flex-basis: 32%;
+}
+
+.dark-heresy .acolyte .header .name {
+    flex-basis: 60%;
+}
+
+.dark-heresy .acolyte .header .lureOfTheVoid {
+	flex-basis: 70%;
+}
+
+.dark-heresy .acolyte .header .trialsAndTravails {
+	flex-basis: 100%;
 }
 
 .dark-heresy .acolyte .header .home-world input,
@@ -20,6 +32,12 @@
 .dark-heresy .acolyte .header .role input,
 .dark-heresy .acolyte .header .elite input {
     width: 11em;
+}
+
+.dark-heresy .acolyte .header .lureOfTheVoid input,
+.dark-heresy .acolyte .header .trialsAndTravails input,
+.dark-heresy .acolyte .header .name input {
+	width: 22em;
 }
 
 .dark-heresy .acolyte .header .fate input,

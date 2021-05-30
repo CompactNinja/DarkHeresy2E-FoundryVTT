@@ -51,7 +51,6 @@
     flex-wrap: wrap;
     flex-basis: calc(45% - 4px);
     align-items: center;
-    margin: 0 2px;
 }
 
 .dark-heresy .progression .talents .item-list .header {
@@ -99,7 +98,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-basis: 30%;
+    flex-basis: 55%;
+    margin: 0 2px;
 }
 
 .dark-heresy .progression .experience .information {

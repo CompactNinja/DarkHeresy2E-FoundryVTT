@@ -1,6 +1,6 @@
 .dark-heresy .notes-tab .notes-editor {
     margin-top: 2px;
-    height: 476px;
+    height: 572px;
 }
 
 .dark-heresy .notes-tab .information {
@@ -42,6 +42,9 @@
 .dark-heresy .notes-tab .information .information-row .gender input,
 .dark-heresy .notes-tab .information .information-row .build input,
 .dark-heresy .notes-tab .information .information-row .complexion input,
+.dark-heresy .notes-tab .information .information-row .height input,
+.dark-heresy .notes-tab .information .information-row .weight input,
+.dark-heresy .notes-tab .information .information-row .eyes input,
 .dark-heresy .notes-tab .information .information-row .hair input {
     width: 8em;
 }
