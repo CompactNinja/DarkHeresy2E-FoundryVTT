@@ -37,8 +37,11 @@ export class DarkHeresyActor extends Actor {
 			}
             if (skill.isSpecialist) {
                 for (let speciality of Object.values(skill.specialities)) {
-					if (speciality.advance < 0) {
+					if (speciality.advance < -10) {
 						speciality.total = 0;
+					} else if (speciality.advance >= -10 && speciality.advance < 0) {
+						speciality.total = characteristic.total/2;
+						speciality.total = Math.floor(speciality.total);
 					} else {
 						speciality.total = characteristic.total + speciality.advance;
 					}

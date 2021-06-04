@@ -1,6 +1,7 @@
 {
   "ADVANCE.NONE": "None",
   "ADVANCE.UNTRAINED": "Untrained",
+  "ADVANCE.BASICUNTRAINED": "Basic Untrained",
   "ADVANCE.SIMPLE": "Simple",
   "ADVANCE.KNOWN": "Known",
   "ADVANCE.INTERMEDIATE": "Intermediate",
@@ -39,7 +40,7 @@
   "ARMOUR.CRAFTSMANSHIP": "Craftsmanship",
   "ARMOUR.AVAILABILITY": "Availability",
 
-  "ARMOUR_TYPE.BASIC": "Basic",
+  "ARMOUR_TYPE.BASIC": "Primitive",
   "ARMOUR_TYPE.FLAK": "Flak",
   "ARMOUR_TYPE.MESH": "Mesh",
   "ARMOUR_TYPE.CARAPACE": "Carapace",
@@ -88,6 +89,7 @@
   "BIO.EYES": "Eyes",
   "BIO.LUREOFTHEVOID": "Lure of the Void",
   "BIO.TRIALSANDTRAVAILS": "Trials and Travails",
+  "BIO.MOTIVATION": "Motivation",
 
   "BUTTON.POST_ITEM": "Post Item",
   "BUTTON.ROLL": "Roll",
@@ -409,7 +411,7 @@
   "WEAPON.MELTA": "Melta",
   "WEAPON.PLASMA": "Plasma",
   "WEAPON.FLAME": "Flame",
-  "WEAPON.LOWTECH": "Low-Tech",
+  "WEAPON.LOWTECH": "Primitive",
   "WEAPON.LAUNCHER": "Launcher",
   "WEAPON.EXPLOSIVE": "Explosive",
   "WEAPON.EXOTIC": "Exotic",
