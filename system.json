@@ -2,7 +2,7 @@
   "name": "dark-heresy-rt",
   "title": "Dark Heresy 2E - Rogue Trader Edit",
   "description": "Innocence proves nothing",
-  "version": "2.3.0r",
+  "version": "0.2",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,
@@ -71,6 +71,6 @@
   "url": "https://github.com/CompactNinja/DarkHeresy2E-FoundryVTT",
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/CompactNinja/DarkHeresy2E-FoundryVTT/master/system.json",
-  "download": "https://github.com/CompactNinja/DarkHeresy2E-FoundryVTT/releases/download/0.1/dark-heresy-rt.zip",
+  "download": "https://github.com/CompactNinja/DarkHeresy2E-FoundryVTT/releases/download/0.2/dark-heresy-rt.zip",
   "license": "LICENSE.txt"
 }
